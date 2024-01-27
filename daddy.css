@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgb(0, 108, 197);
+}
+
+#header .title{
+    color: rgb(43, 43, 43);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(155, 152, 152);
+    padding: 1rem;
+}
+
+#header .title span{
+    color: green;
+}
+
+#main {
+    color: rgb(48, 47, 47);
+
+    margin: 0px 20px;
+}
+#main h1{
+    font-size: 40px;
+    font-weight: bold;
+    padding:15px 0px;
+}
+#main .p{
+    line-height: 1.5rem;
+    background-color: rgb(199, 199, 199);
+    color: rgb(77, 76, 76);
+    font-weight: bold;
+    margin: 10px;
+}
+
+#main h3{
+    line-height: 1.8rem;
+    color: rgb(48, 47, 47);
+}
+#main h3 span{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#main img{
+  
+    
+    width: 250px;
+    height: 300px;
+}
+
+#main .img{
+    display: block;
+    
+    text-align: center;
+}
+
+#main .img p{
+    font-weight: bold;
+}
+
+
+#main .moreinfo{
+
+   border: 1px gray solid;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+#main .moreinfo p{
+   
+    margin: 20px;
+}
+
+#main .moreinfo .float{
+    max-width: 250px;
+    text-align: left;
+    
+}
+
+#main .fit{
+    background-color: rgb(212, 201, 201);
+    border: 1px rgb(161, 161, 161) solid;
+}
+
+#main .end{
+    
+    line-height: 2rem;
+    margin: 45px 5px;
+}
+
